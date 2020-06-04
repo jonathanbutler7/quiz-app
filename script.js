@@ -144,7 +144,7 @@ function correctAnswer() {
         `<div class="startBox">
         <h3>Your answer is correct!</h3>
         <img src="images/michael-scott-yes.png" class="resultImg">
-        <p>You just might be a superfan...</p>
+        <p>That's what she said</p>
         <button type="submit" class="button nextButton">Next question</button>
         </div>
         `
@@ -188,7 +188,7 @@ function finalScore() {
         'Good, not great',
         'images/stanley-unimpressed.gif',
         'stanley is unimpressed',
-        'We are watching The Office right now. Start to finish.'
+        'Watch The Office. Right now. Start to finish.'
     ]
 
     const bad = [
