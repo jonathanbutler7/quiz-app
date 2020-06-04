@@ -9,7 +9,7 @@ const STORE = [
             'Toaster'
         ],
         correctAnswer:
-        'Foot massager',
+        'Foot bath',
     },
     {
         question: 'During the episode, Prince Family Paper, what is the secret signal that Dwight and Michael agree on using?',
@@ -20,7 +20,7 @@ const STORE = [
             'Birdcall'
         ],
         correctAnswer:
-        'Raising your eyebrows'
+        'Licking your lips'
     },
     {
         question: 'What does Angela use as a rape deterrent instead of a whistle?',
@@ -31,18 +31,18 @@ const STORE = [
             'Yankee Doodle Dandy'
         ],
         correctAnswer:
-        'Yankee Doodle Dandy'
+        'Rape flute'
     },
     {
-        question: 'What does Michael eat instead of ice cream because they does not have any?',
+        question: 'What was Ryan trying to heat up in the toaster when he started the fire?',
         answers: [
-            'Mayo and black olives',
-            'Mayo and chocolate chips',
-            'Mayo and a pickle',
-            'Mayo and M&Ms'
+            'Pizza bites',
+            'Cheesy pita',
+            'Bagel',
+            'Toast'
         ],
         correctAnswer:
-        'Mayo and black olives'
+        'Cheesy pita'
     },
     {
         question: 'On what social media site does Creed say that Michaels nephew is trashing them relentlessly?',
@@ -53,7 +53,7 @@ const STORE = [
             'Woof'
         ],
         correctAnswer: 
-        'Facebook'
+        'Twitter'
     }
 ];
 
