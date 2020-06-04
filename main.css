@@ -1,0 +1,155 @@
+body {
+  background-image: url(images/notebook-image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1500px;
+  background-position-y: inherit;
+  
+}
+
+.questionNumber {
+    padding: 0 0 0 5px;
+}
+
+
+
+.title-container {
+    border: 2px solid black;
+    margin: 15px 0 15px 0;
+    padding: 15px 0 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+    margin: 20px auto 20px auto;
+    background-color: #F5F5F5;
+    max-width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,1);
+}
+
+.title-container > span {
+    padding: 15px 0 15px 0;
+}
+
+.startQuiz, .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: American Typewriter;
+}
+
+.q-a-container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    background-color: #F5F5F5;
+    max-width: 550px;
+    border-radius: 10px;
+    height: 500px;  
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,1);  
+}
+
+.startQuiz > img {
+    height: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.resultImg {
+    height: 250px;
+}
+
+input {
+    flex-direction: row;
+}
+
+.startBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 1em;
+    
+}
+
+fieldset {
+      margin: 15px;
+}
+
+.quizBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+}
+
+.startButton {
+    cursor: pointer;
+    width: 25%;
+    margin: 20px auto 0 auto;
+    background-color: #1F2633;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    font-family: American Typewriter;
+}
+
+.nextButton {
+        cursor: pointer;
+        /* width: 25%; */
+        margin: 20px auto 0 auto;
+        background-color: #1F2633;
+        color: white;
+        border-radius: 10px;
+        height: 40px;
+
+}
+
+.startButton {
+    cursor: pointer;
+    margin: 10px auto 20px auto;
+    background-color: #1F2633;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #1F2633;
+    color: white;
+}
+
+img {
+    display: flex;
+    height: 50px;
+    margin: 0 auto 0 auto;
+}
+
+.gif {
+    height: 250px;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    color: black;
+    margin: 15px;
+    font-family: American Typewriter;
+}
+
+@media only screen and (min-width: 800px) {
+    .title-container, .q-a-container {
+        max-width: 500px;
+        box-shadow: 0 5px 15px -5px rgba(0,0,0,1);
+        background-color: #F5F5F5;
+    }
+}
