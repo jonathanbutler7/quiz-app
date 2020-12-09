@@ -107,7 +107,6 @@ function wrongAnswer() {
 
 function nextQuestion() {
   $('.q-a-container').on('click', '.nextButton', function () {
-    // console.log('nextQ');
     $('.altBox').hide();
     $('.questionBox').show();
     updateQuestionNumber();
