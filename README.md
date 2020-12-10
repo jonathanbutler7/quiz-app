@@ -1,3 +1,5 @@
+![alt text](https://storage.googleapis.com/portfolio-website-content/quiz.png)
+
 ## What is this?
 
 This app uses jQuery to build a quiz app based on my favorite TV show, The Office.
